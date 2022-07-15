@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1752a5c69de11e44e89d834599833a4e, type: 3}
+  m_Name: Test_Slime
+  m_EditorClassIdentifier: 
+  _unitInfo:
+    Name: Slime
+    Icon:
+      _sprite: {fileID: 21300000, guid: b8afdaad555bb774285c696f0b5c8fab, type: 3}
+      _deviation: {x: 0, y: 0}
+    _speed:
+      _value: 7
+    _attack:
+      _value: 8
+    _health:
+      _maxValue: 8
+    _mana:
+      _maxValue: 11
+  _activeAbilities:
+  - {fileID: 11400000, guid: 76beb17b50d80b64493e5643b029ba80, type: 2}
+  - {fileID: 11400000, guid: 8e4867c5e6c341f42bd2e70aaa580eb3, type: 2}
+  - {fileID: 11400000, guid: be656aaaa87432e44b9d0773125026c7, type: 2}
+  _passiveAbilities:
+  - {fileID: 11400000, guid: 943a99e63162fdc4ba018847a1276046, type: 2}
+  - {fileID: 11400000, guid: 943a99e63162fdc4ba018847a1276046, type: 2}
+  - {fileID: 11400000, guid: e64ac4872e8f26f4293e29a904ebd86a, type: 2}

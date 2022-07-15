@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ff6fbfed24f97458654db5210aa8a0, type: 3}
+  m_Name: ExtraActions
+  m_EditorClassIdentifier: 
+  _abilityInfo:
+    Name: Extra actions
+    Description: 
+    Icon:
+      _sprite: {fileID: 21300000, guid: a0c00a83e585bf042929ae33b37825da, type: 3}
+      _deviation: {x: 0, y: 0}
+    Level: 1
+    Cooldown:
+      Value: 0
+      StartCooldown: 0
+    TargetType:
+      SelectionType: 0
+      TargetSide: 0
+      CanChooseSelf: 0
+    Cost:
+      CostAmount: 0
+      CostType: 0
+  _ExtraActionsInfo:
+    ExtraActions: 5

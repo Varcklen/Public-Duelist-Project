@@ -1,0 +1,33 @@
+using UnityEngine;
+using System;
+using Project.Abilities.Interfaces;
+using Project.UnitNS;
+using System.Threading.Tasks;
+
+namespace Project.Abilities.Data
+{
+	[CreateAssetMenu(fileName="New #SCRIPTNAME#", menuName="Scriptable Objects/Ability/Skill/#SCRIPTNAME#")]
+	public class #SCRIPTNAME# : SkillData
+	{
+		[SerializeField] private #SCRIPTNAME#Info _#SCRIPTNAME#Info;
+		public override PropertyInfo Property { get => _#SCRIPTNAME#Info; }
+        public override Type PropertyType => typeof(#SCRIPTNAME#Component);
+    }
+}
+
+namespace Project.Abilities
+{
+    [Serializable]
+	public class #SCRIPTNAME#Info : PropertyInfo
+	{
+		#NOTRIM#
+    }
+
+	public class #SCRIPTNAME#Component : SkillComponent<#SCRIPTNAME#Info>
+	{
+		protected override void Init()
+        {
+			#NOTRIM#
+        }
+    }
+}

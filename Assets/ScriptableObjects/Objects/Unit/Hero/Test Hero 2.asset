@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a08e5736cdcb2eb4aaecb1dd572488cb, type: 3}
+  m_Name: Test Hero 2
+  m_EditorClassIdentifier: 
+  _unitInfo:
+    Name: Test Hero Two
+    Icon:
+      _sprite: {fileID: 21300000, guid: 09e50276c91a8c94b9b34b266f2b8094, type: 3}
+      _deviation: {x: 0, y: 0}
+    _speed:
+      _value: 1
+    _attack:
+      _value: 6
+    _health:
+      _maxValue: 12
+    _mana:
+      _maxValue: 13
+  _activeAbilities:
+  - {fileID: 11400000, guid: 11466606d8480db4ebc2dd5f5cd1158a, type: 2}
+  - {fileID: 11400000, guid: 11466606d8480db4ebc2dd5f5cd1158a, type: 2}
+  - {fileID: 11400000, guid: 11466606d8480db4ebc2dd5f5cd1158a, type: 2}
+  _passiveAbilities:
+  - {fileID: 11400000, guid: 943a99e63162fdc4ba018847a1276046, type: 2}
+  - {fileID: 11400000, guid: 943a99e63162fdc4ba018847a1276046, type: 2}
+  - {fileID: 11400000, guid: 943a99e63162fdc4ba018847a1276046, type: 2}

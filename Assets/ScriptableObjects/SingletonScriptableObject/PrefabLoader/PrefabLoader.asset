@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f6cab11f0331f24fbdfc62f4b55c8d2, type: 3}
+  m_Name: PrefabLoader
+  m_EditorClassIdentifier: 
+  _heroPrefab: {fileID: 2053687580970665552, guid: b2c084b6053e2a9409db61f82dadd439, type: 3}
+  _minionPrefab: {fileID: 7495033252208801887, guid: a5aabb0109931e74fbefb31c9895d038, type: 3}
+  _startManagerPrefab: {fileID: 6442771821491482739, guid: 48d8faece131f0b47abf538638d9d749, type: 3}

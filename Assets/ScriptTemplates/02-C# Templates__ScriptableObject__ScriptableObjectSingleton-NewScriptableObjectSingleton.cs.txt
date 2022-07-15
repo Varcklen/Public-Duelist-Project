@@ -1,0 +1,11 @@
+using UnityEngine;
+using Project.Singleton.ScriptableObjects;
+
+namespace Project.Singleton.#SCRIPTNAME#NS
+{
+	[CreateAssetMenu(fileName ="#SCRIPTNAME#", menuName = "Scriptable Objects/Singleton/#SCRIPTNAME#")]
+	public class #SCRIPTNAME# : SingletonScriptableObject<#SCRIPTNAME#>
+	{
+	#NOTRIM#
+	}
+}

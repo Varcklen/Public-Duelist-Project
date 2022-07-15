@@ -1,0 +1,15 @@
+using UnityEngine;
+using Project.Abilities;
+using Project.UnitNS;
+
+namespace Project.AI.Considerations
+{
+	[CreateAssetMenu(fileName ="New #SCRIPTNAME#", menuName = "Scriptable Objects/Consideration/Consideration Curve/#SCRIPTNAME#")]
+	public class #SCRIPTNAME# : ConsiderationCurve
+	{
+		protected override float GetScore(Unit unit, ClickableAbility ability)
+		{
+			return 1;
+		}
+	}
+}
