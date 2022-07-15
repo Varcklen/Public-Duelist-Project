@@ -1,4 +1,4 @@
-# Public-Duelist-Project
+# Public Duelist Project
 A public non-updatable version of a private project.
 
 Public version of a closed project I'm currently working on (as of July 2022).
